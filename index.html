@@ -9,14 +9,39 @@
 </head>
 <body>
     <nav>
-        <div class="container" onclick="myFunction(this)">
+    <!--    <div class="container" onclick="myFunction(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
         </div>
         <script>
         function myFunction(x) {
-            x.classList.toggle("change)");}
+            x.classList.toggle("change");}
+        </script> -->
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">☰</button>  
+        </div>
+        <div>
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="books.html">Books</a>
+                <a href="embroidery.html">Embroidery</a>
+                <a href="experience.html">Experience</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <script>
+            function openNav() {
+              document.getElementById("mySidebar").style.width = "250px";
+              document.getElementById("main").style.marginLeft = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidebar").style.width = "0";
+              document.getElementById("main").style.marginLeft= "0";
+            }
         </script>
     </nav>
 <!--    <nav>
