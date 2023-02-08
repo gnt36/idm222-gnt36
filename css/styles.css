@@ -33,7 +33,6 @@ body {
     align-items: center;
 }
 
-
 body nav {
     background-color: var(--color-accent);
 }
@@ -133,6 +132,12 @@ main div h1, div h2 {
     font-family: var(--font--serif);
     line-height: 1.3;
     text-align: center;
+}
+
+body main figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main div p {
