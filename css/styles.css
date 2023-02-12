@@ -154,10 +154,12 @@ main div ul li {
     line-height: 1.4rem;
 }
 
-main div.left {
-    margin-top: 45px;
-    transform: rotate(-20deg);
-}
+.parent figure:nth-child(odd) {
+    rotate: -20deg;
+  }
+.parent figure:nth-child(even) {
+    rotate: 20deg;
+  }
 
 
 
