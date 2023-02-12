@@ -159,17 +159,7 @@ main div.left {
     transform: rotate(-20deg);
 }
 
-main div.right {
-    margin-top: 45px;
-    transform: rotate(20deg); 
-}
 
-@media (min-width: 600px) {
-    figure {
-        display: flex;
-        flex-direction: row;
-    }
-}
 
 footer {
     position: fixed;
