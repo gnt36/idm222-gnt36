@@ -134,7 +134,7 @@ main div h1, div h2 {
     text-align: center;
 }
 
-body main figure {
+body main div figure {
     display: flex;
     flex-direction: column;
     align-items: center;
