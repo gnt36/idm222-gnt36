@@ -27,3 +27,6 @@
 
 # Photoshop Files
 *.psd
+
+# Non-photoshopped Images
+css/media/notphotoshopped
