@@ -134,8 +134,6 @@ main div ul li {
     rotate: 20deg;
   }
 
-
-
 main div figure.flip:hover {
     transform: rotateY(180deg);
     transition: 3s;
