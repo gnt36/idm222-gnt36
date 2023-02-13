@@ -1,16 +1,30 @@
 * {box-sizing: border-box;}
 
 @font-face {
-    font-family: 'arvoregular';
-    src: url('fonts/Arvo-Regular.ttf') format('trutype');
+    font-family: 'DHregular';
+    src: url('fonts/DatingHistoria-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'arvobold';
-    src: url('fonts/Arvo-Bold.ttf') format('trutype');
+    font-family: 'DHbold';
+    src: url('fonts/DatingHistoria-Bold.woff2') format('woff2');
     font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DHlight';
+    src: url('fonts/DatingHistoria-Light.woff2') format('woff2');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DHblack';
+    src: url('fonts/DatingHistoria-Black.woff2') format('woff2');
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -18,8 +32,10 @@ html {
     --color-light: #F3E1D5;
     --color-dark: #131313;
     --color-accent: #2E748A;
-    --font--serif: 'arvoregular', 'Times New Roman', Times, serif;
-    --font--serif-bold: 'arvobold', 'Times New Roman Bold', Times Bold, serif;
+    --font--serif: 'DHregular', 'Times New Roman', Times, serif;
+    --font--serif-bold: 'DHbold', 'Times New Roman Bold', Times Bold, serif;
+    --font--serif-lighter: 'DHlight', 'Times New Roman', Times, serif;
+    --font--serif-black: 'DHblack', 'Times New Roman', Times, serif;
 }
 
 body {
