@@ -1,6 +1,6 @@
 * {box-sizing: border-box;}
 
-@font-face {
+/* @font-face {
     font-family: 'DHregular';
     src: url('fonts/DatingHistoria-Regular.woff2') format('woff2');
     font-weight: normal;
@@ -26,22 +26,41 @@
     src: url('fonts/DatingHistoria-Black.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+} */
+
+@font-face {
+    font-family: 'childrentwiny';
+    src: url('fonts/Children\ Twiny.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'alexandria';
+    src: url('fonts/AlexandriaFLF.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ccr';
+    src: url('fonts/Chocolate\ Covered\ Raindrops.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 html {
     --color-light: #F3E1D5;
     --color-dark: #131313;
     --color-accent: #2E748A;
-    --font--serif: 'DHregular', 'Times New Roman', Times, serif;
-    --font--serif-bold: 'DHbold', 'Times New Roman Bold', Times Bold, serif;
-    --font--serif-lighter: 'DHlight', 'Times New Roman', Times, serif;
-    --font--serif-black: 'DHblack', 'Times New Roman', Times, serif;
+    --font--serif-heading: 'ccr', 'Times New Roman', Times, serif;
+    --font--serif-body: 'alexandria', 'Times New Roman', Times, serif;
 }
 
 body {
     background-color: var(--color-light);
     color: var(--color-dark);
-    font-family: var(--font--serif);
+    font-family: var(--font--serif-body);
     margin: 0 0;
 
     display: flex;
@@ -116,9 +135,16 @@ main {
     max-width: 100vw;
 }
 
-main div h1, div h2 {
+main div h1 {
     color: var(--color-dark);
-    font-family: var(--font--serif);
+    font-family: var(--font--serif-heading);
+    font-size: 3rem;
+    text-align: center;
+}
+
+main div h2 {
+    color: var(--color-dark);
+    font-family: var(--font--serif-body);
     line-height: 1.3;
     text-align: center;
 }
