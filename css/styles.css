@@ -151,6 +151,12 @@ main div p {
     line-height: 1.4;
 }
 
+@media (min-width: 1024px) {
+    main div p {
+        font-size: 1.6rem;
+    }
+}
+
 main div p.time {
     font-size: 1.3rem;
 }
