@@ -156,7 +156,8 @@ main div p.time {
 }
 
 main div ul li {
-    line-height: 1.4rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
 }
 
 .parent figure:nth-child(odd) {
