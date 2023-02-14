@@ -120,6 +120,31 @@ body main div figure {
     align-items: center;
 }
 
+main div.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 35px;
+}
+
+.left {
+    rotate: -20deg;
+    margin-bottom: 55px;
+}
+
+.right {
+    rotate: 20deg;
+}
+
+@media (min-width: 800px) {
+    main div.about {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
 main div p {
     font-size: 1.4rem;
     text-align: center;
