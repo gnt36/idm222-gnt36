@@ -179,7 +179,7 @@ main div figure.flip:hover {
     transition: 3s;
 }
 
-.company:hover {
+.shadow:hover {
     transform: scale(1.1);
     transition: 1s;
     box-shadow: 0px 10px 20px 2px var(--color-dark);
