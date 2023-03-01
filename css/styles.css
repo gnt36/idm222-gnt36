@@ -159,6 +159,15 @@ main div p {
     }
 }
 
+main div p a {
+    color: var(--color-valencia);
+    text-decoration: none;
+}
+
+main div p a:visited {
+    color: var(--color-accent)
+}
+
 main div p.time {
     font-size: 1.3rem;
 }
