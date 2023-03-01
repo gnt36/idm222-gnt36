@@ -130,12 +130,12 @@ main div.about {
 }
 
 .left {
-    rotate: -20deg;
+    transform: rotate(-20deg);    
     margin-bottom: 55px;
 }
 
 .right {
-    rotate: 20deg;
+    transform: rotate(20deg);
 }
 
 @media (min-width: 800px) {
@@ -168,10 +168,10 @@ main div ul li {
 }
 
 .parent figure:nth-child(odd) {
-    rotate: -20deg;
+    transform: rotate(-20deg);    
   }
 .parent figure:nth-child(even) {
-    rotate: 20deg;
+    transform: rotate(20deg);    
   }
 
 main div figure.flip:hover {
