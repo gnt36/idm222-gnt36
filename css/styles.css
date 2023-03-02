@@ -145,6 +145,9 @@ main div.about:hover {
 }
 
 @media (min-width: 800px) {
+    body {
+        padding: 0 150px;
+    }
     main div.about {
         display: flex;
         flex-direction: row;
@@ -155,7 +158,8 @@ main div.about:hover {
 main div p {
     font-size: 1.4rem;
     text-align: center;
-    line-height: 1.4;
+    line-height: 1.5;
+    padding: 0 30px;
 }
 
 @media (min-width: 1024px) {
