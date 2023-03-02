@@ -177,10 +177,10 @@ main div ul li {
     line-height: 1.5rem;
 }
 
-.parent figure:nth-child(odd) {
+.parent:nth-child(odd) figure {
     transform: rotate(-20deg);    
   }
-.parent figure:nth-child(even) {
+.parent:nth-child(even) figure {
     transform: rotate(20deg);    
   }
 
