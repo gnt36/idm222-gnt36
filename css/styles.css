@@ -186,11 +186,15 @@ main div ul li {
     line-height: 1.5rem;
 }
 
+.parent figure {
+    margin-top: 4.25rem;
+}
+
 .parent:nth-child(odd) figure {
     transform: rotate(-20deg);    
   }
 .parent:nth-child(even) figure {
-    transform: rotate(20deg);    
+    transform: rotate(20deg); 
   }
 
 main div figure.flip:hover {
