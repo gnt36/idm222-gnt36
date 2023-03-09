@@ -171,12 +171,16 @@ main div p {
 }
 
 main div p a {
-    color: var(--color-valencia);
+    color: var(--color-dark);
     text-decoration: none;
 }
 
-main div p a:visited {
-    color: var(--color-accent)
+main div p a:hover {
+    color: var(--color-light)
+}
+
+mark {
+    background-color: var(--color-valencia);
 }
 
 main div p.time {
