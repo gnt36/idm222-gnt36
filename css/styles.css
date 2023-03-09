@@ -156,7 +156,7 @@ main div.about:hover {
 
 main div p {
     font-size: 1.4rem;
-    text-align: center;
+    text-align: left;
     line-height: 1.5;
     padding: 16px;
 }
