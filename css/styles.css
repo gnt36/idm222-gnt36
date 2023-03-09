@@ -28,7 +28,6 @@ body {
     color: var(--color-dark);
     font-family: var(--font--serif-body);
     margin: 0 0;
-    padding: 0 60px;
 
     display: flex;
     flex-direction: column;
@@ -159,7 +158,7 @@ main div p {
     font-size: 1.4rem;
     text-align: center;
     line-height: 1.5;
-    padding: 0 30px;
+    padding: 16px;
 }
 
 @media (min-width: 1024px) {
@@ -234,9 +233,8 @@ footer p {
     background-color: var(--color-accent);
     color: var(--color-light);
     font-family: var(--font--serif);
-    height: 30px;
     margin: 20px 0 0;
-    padding: 7px;
+    padding: 16px;
 }
 
 footer p a {
@@ -247,7 +245,6 @@ footer p a {
 /* Cube */
 
 main div.body {
-    margin: 60px 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
