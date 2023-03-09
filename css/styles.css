@@ -212,6 +212,20 @@ main div ul li {
     }
 }
 
+.polaroid {
+    background-color: white;
+    padding: 1rem 1rem 3rem;
+
+}
+
+figcaption > p {
+    max-width: 24ch;
+}
+
+.border {
+    border: 2px solid black;
+}
+
 .parent figure {
     margin-top: 4.25rem;
 }
