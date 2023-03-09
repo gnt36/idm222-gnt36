@@ -196,25 +196,37 @@ main div ul li {
     max-width: 50ch;
 }
 
-@media (min-width: 1024px) {
+.container {
+    display: grid;
+    justify-content: center;
+}
+
+@media (min-width: 1260px) {
     .container {
         display: grid;
-        grid-template-columns: 300px 300px;
+        grid-template-columns: 450px 450px;
         justify-content: center;
     }
 }
 
-@media (min-width: 1420px) {
+@media (min-width: 1640px) {
     .container {
         display: grid;
-        grid-template-columns: 300px 300px 300px;
+        grid-template-columns: 450px 450px 450px;
+        gap: 20px;
         justify-content: center;
     }
 }
 
-.polaroid {
+figure.card img {
+    width: 100%;
+}
+
+.card {
     background-color: white;
-    padding: 1rem 1rem 3rem;
+    padding: 1rem 1rem 2rem;
+    box-shadow: 0px 10px 20px 2px var(--color-dark);
+    max-width: 400px;
 
 }
 
@@ -222,8 +234,22 @@ figcaption > p {
     max-width: 24ch;
 }
 
+main div figure p.pc {
+    margin: auto;
+}
+
 .border {
     border: 2px solid black;
+}
+
+.button {
+    background-color: var(--color-valencia);
+    color: var(--color-light);
+    border-radius: 24px;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-decoration: none;
 }
 
 .parent figure {
