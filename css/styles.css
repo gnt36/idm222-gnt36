@@ -83,12 +83,12 @@ nav {
     font-size: 30px;
     cursor: pointer;
     background-color: var(--color-accent);
-    color: var(--color-dark);
+    color: var(--color-light);
     border: none;
   }
   
   .openbtn:hover {
-    color: var(--color-light);
+    color: var(--color-dark);
   }
   
   #main {
