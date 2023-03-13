@@ -116,6 +116,7 @@ main div h2 {
     font-family: var(--font--serif-body);
     line-height: 1.3;
     text-align: center;
+    margin: 3rem 0 0 0;
 }
 
 body main div figure {
@@ -161,7 +162,7 @@ main div p {
     font-size: 1.4rem;
     text-align: left;
     line-height: 1.5;
-    padding: 16px;
+    padding: 24px;
 }
 
 @media (min-width: 1024px) {
@@ -185,6 +186,8 @@ mark {
 
 main div p.time {
     font-size: 1.3rem;
+    margin: 0 0;
+    padding: 1rem;
 }
 
 main div ul li {
