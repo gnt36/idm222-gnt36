@@ -312,6 +312,7 @@ main div.body {
 .cube {
 	width: 200px;
 	height: 200px;
+    margin: 2.5rem 0;
 	position: relative;
 	transform-style: preserve-3d;
 	animation: rotate 15s linear infinite;
