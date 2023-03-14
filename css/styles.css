@@ -80,7 +80,6 @@ nav {
     right: 25px;
     font-size: 48px;
     margin-left: 50px;
-    margin-top: 24px;
   }
   
   button.openbtn {
@@ -114,9 +113,14 @@ main div h1 {
     font-family: var(--font--serif-heading);
     font-size: 3rem;
     line-height: 0.7;
-    max-width: 16ch;
     margin: 32px auto;
     text-align: center;
+}
+
+@media (max-width: 600px) {
+    main div h1 {
+        max-width: 16ch;
+    }
 }
 
 main div h2 {
