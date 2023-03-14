@@ -201,6 +201,7 @@ main div ul li {
 
 .embroidery {
     max-width: 50ch;
+    margin: 0 auto;
 }
 
 .container {
