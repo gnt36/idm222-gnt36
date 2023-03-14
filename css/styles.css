@@ -70,24 +70,28 @@ nav {
   .sidebar a:hover {
     color: var(--color-dark);
   }
-  
-  .sidebar .closebtn {
+
+  .sidebar button.closebtn {
+    color: var(--color-light);
+    background-color: var(--color-accent);
+    border: none;
     position: absolute;
-    top: 0;
+    top: 0; 
     right: 25px;
-    font-size: 46px;
+    font-size: 48px;
     margin-left: 50px;
+    margin-top: 24px;
   }
   
-  .openbtn {
-    font-size: 30px;
+  button.openbtn {
+    font-size: 32px;
     cursor: pointer;
     background-color: var(--color-accent);
     color: var(--color-light);
     border: none;
   }
   
-  .openbtn:hover {
+  button.openbtn:hover {
     color: var(--color-dark);
   }
   
