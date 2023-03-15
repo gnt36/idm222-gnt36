@@ -108,7 +108,7 @@ main div h1 {
     font-family: var(--font--serif-heading);
     font-size: 3rem;
     line-height: 0.7;
-    margin: 32px auto;
+    margin: 48px auto auto;
     text-align: center;
 }
 
