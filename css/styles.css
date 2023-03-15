@@ -78,20 +78,15 @@ nav {
     position: absolute;
     top: 0; 
     right: 25px;
-    font-size: 48px;
+    margin-top: 16px;
     margin-left: 50px;
   }
   
   button.openbtn {
-    font-size: 32px;
     cursor: pointer;
     background-color: var(--color-accent);
     color: var(--color-light);
     border: none;
-  }
-  
-  button.openbtn:hover {
-    color: var(--color-dark);
   }
   
   #main {
