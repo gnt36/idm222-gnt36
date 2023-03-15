@@ -169,7 +169,7 @@ main div p {
     font-size: 1.4rem;
     text-align: left;
     line-height: 1.5;
-    padding: 24px;
+    padding: 16px;
 }
 
 @media (min-width: 1024px) {
